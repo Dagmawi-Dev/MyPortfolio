@@ -186,3 +186,81 @@ span {
   text-justify: inter-word;
   margin: 1rem 0 2rem;
 }
+
+/* Portfolio */
+.portfolio {
+  background: var(--second-bg-color);
+}
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0 1.5em;
+}
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0.8rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+  border: 5px solid var(--main-color);
+}
+.portfolio-box img {
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0.9;
+  height: 60vh;
+}
+.gitl {
+  text-decoration: none;
+}
+.git2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.portfolio-box:hover img {
+  transform: scale(1.001);
+}
+.portfolio-box .portfolio-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), var(--mainn-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 3.5rem;
+  transform: translateY(100%);
+  transform: 0.5 ease;
+}
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
+}
+.portfolio-layer h4 {
+  font-size: var(--h2-font);
+}
+.portfolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+.portfolio-layer a i {
+  font-size: 1.5rem;
+  color: var(--snd-bf-color);
+}
+.portfolio h2 {
+  margin-bottom: 2rem;
+  font-size: var(--h1-font);
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
