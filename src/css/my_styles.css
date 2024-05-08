@@ -366,3 +366,52 @@ span {
 footer {
   margin-top: 3rem;
 }
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .about .contain {
+    width: 50%;
+    margin-right: 2rem;
+  }
+  .about-content {
+    width: 60%;
+    margin-left: 2rem;
+  }
+  .about {
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  :root {
+    --h1-font: 2.8rem;
+    --h2-font: 2.4rem;
+  }
+  .home {
+    text-align: center;
+  }
+  .about {
+    margin-bottom: 20rem;
+  }
+  .about1 {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .about .contain {
+    width: 90%;
+  }
+  .about-content {
+    width: 90%;
+    margin-bottom: 0.02rem;
+  }
+  .skills {
+    height: 170vh;
+  }
+  .contact form {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .contain .boxm {
+    margin-bottom: 1em;
+  }
+}
