@@ -140,3 +140,49 @@ span {
   text-align: justify;
   text-justify: inter-word;
 }
+/* Skliis */
+.skills {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-box {
+  flex: 1 1 300px;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background: var(--second-bg-color);
+  border: 0.2em solid var(--bg-color);
+  height: 25em;
+  transition: 0.5s ease;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.skills-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.skills-box h3 {
+  font-size: var(--h2-font);
+  font-weight: 800;
+}
+
+.skills-box i {
+  font-size: 4.5rem;
+  color: var(--main-color);
+}
+
+.skills-box p {
+  font-size: 1.1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 1rem 0 2rem;
+}
