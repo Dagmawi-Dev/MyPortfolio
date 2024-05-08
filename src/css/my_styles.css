@@ -303,3 +303,66 @@ span {
   margin-top: 0.8rem;
   cursor: pointer;
 }
+.btn {
+  width: 30vh;
+  background-color: var(--main-color);
+  padding: 0.4em;
+  border-radius: 0.8em;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: var(--second-bg-color);
+}
+
+.footer-column {
+  flex: 1;
+  margin-left: 4em;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+.fa-linkedin,
+.fa-square-github,
+.fa-telegram {
+  font-size: 1.5rem;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-column ul li a:hover {
+  color: var(--main-color);
+}
+.footer-column h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Additional styling for the copyright text */
+.footer-copyright {
+  
+  padding: 1rem;
+  border-top: 1px solid #fff;
+}
+.footer-copyright h3 {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  margin-top: 3rem;
+}
