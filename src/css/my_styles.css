@@ -415,3 +415,150 @@ footer {
     margin-bottom: 1em;
   }
 }
+@media (max-width: 768px) {
+  /* Common styles */
+  :root {
+    --h1-font: 2.5rem;
+    --h2-font: 2rem;
+  }
+  /* Home section */
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-img img {
+    width: 100%;
+    height: 20rem;
+  }
+  /* About section */
+  .about {
+    margin-bottom: 30rem;
+  }
+  .about .contain {
+    width: 90%;
+  }
+  .about-content {
+    width: 90%;
+  }
+  .contain .boxm {
+    margin-bottom: 1em;
+  }
+  /* Skills section */
+  .skills {
+    height: 160vh;
+  }
+  .skills-container .skills-box {
+    height: auto;
+  }
+  .skills-box i {
+    font-size: 3rem;
+  }
+  /* Portfolio section */
+  .portfolio {
+    height: 150vh;
+    margin-top: 20rem;
+  }
+  .portfolio-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio-box img {
+    height: 50vh;
+  }
+  /* Contact section */
+  .contact {
+    height: 110vh;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    width: 90%;
+    /* Add margin at the bottom for better spacing */
+  }
+  .contact form {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-column {
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Home section */
+  :root {
+    --h1-font: 2rem;
+    --h2-font: 1.5rem;
+  }
+  .home-img img {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 10rem;
+  }
+  /* About section */
+  .about {
+    margin-bottom: 40rem;
+  }
+  .contain {
+    margin: 2em;
+  }
+  /* Skills section */
+  .skills {
+    height: 160vh;
+  }
+  .skills-container .skills-box {
+    height: auto;
+  }
+  .skills-box i {
+    font-size: 2.5rem;
+  }
+  /* Portfolio section */
+  .portfolio {
+    height: 170vh;
+  }
+  .portfolio-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+  .portfolio-box img {
+    height: 40vh;
+  }
+  /* Contact section */
+  .contact {
+    height: 100vh;
+  }
+  .input-group label {
+    font-size: 0.9rem; /* Reduce font size for labels */
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group textarea {
+    padding: 10px; /* Reduce padding for inputs and textareas */
+  }
+
+  .input-group input[type="submit"] {
+    padding: 10px 15px; /* Reduce padding for submit button */
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-column {
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+}
